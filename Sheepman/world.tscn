@@ -18,11 +18,11 @@ mesh = SubResource("BoxMesh_e4nuq")
 skin = SubResource("Skin_vba7f")
 skeleton = NodePath("../CollisionShape3D")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map"]
-transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
-visible = false
-shape = SubResource("BoxShape3D_8ystv")
-
 [node name="Camera3D" type="Camera3D" parent="Map"]
 transform = Transform3D(1, 0, 0, 0, 0.946992, 0.321258, 0, -0.321258, 0.946992, -0.131885, 4.22322, 17.7945)
 cull_mask = 1
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -1.86265e-09, 4.65661e-10, 0)
+visible = false
+shape = SubResource("BoxShape3D_8ystv")
