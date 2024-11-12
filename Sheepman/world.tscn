@@ -1,8 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1y261w5dcffc"]
+[gd_scene load_steps=4 format=3 uid="uid://d1y261w5dcffc"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_e4nuq"]
 
+[sub_resource type="Skin" id="Skin_vba7f"]
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_8ystv"]
+margin = 0.0
 size = Vector3(5, 5, 5)
 
 [node name="World" type="Node3D"]
@@ -10,10 +13,16 @@ size = Vector3(5, 5, 5)
 [node name="Map" type="RigidBody3D" parent="."]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Map"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0157497, 0.00614309, 0.000773787)
+transform = Transform3D(-26.9579, 0, 0, 0, 0.26046, 0, 0, 0, 31.7222, 0.0157497, 0.00614309, 0.000773787)
 mesh = SubResource("BoxMesh_e4nuq")
+skin = SubResource("Skin_vba7f")
 skeleton = NodePath("../CollisionShape3D")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+visible = false
 shape = SubResource("BoxShape3D_8ystv")
+
+[node name="Camera3D" type="Camera3D" parent="Map"]
+transform = Transform3D(1, 0, 0, 0, 0.946992, 0.321258, 0, -0.321258, 0.946992, -0.131885, 4.22322, 17.7945)
+cull_mask = 1
