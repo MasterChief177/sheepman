@@ -1,18 +1,24 @@
 extends CharacterBody3D
 
-const SPEED = 5.0
-const JUMP_VELOCITY = 4.5
-const CROUCH_SPEED = 1.5
-const SPRINT_SPEED = 10.0
+const SPEED = 3.0
+const JUMP_VELOCITY = 4.0
+const CROUCH_SPEED = 1.0
+const SPRINT_SPEED = 8.0
 const STAND_HEIGHT = 2.0
 const CROUCH_HEIGHT = 0.5
+
+const MAX_STAMINA = 100.0
+const STAMINA_DRAIN_RATE = 10.0
+const STAMINA_RECOVERY_RATE = 5.0
 
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var neck := $Neck
 @onready var camera := $Neck/Camera3D
 @onready var collision_shape := $CollisionShape3D
+@onready var stamina_bar := $StaminaLayer/StaminaBar
 
 var is_crouching = false
+var stamina = MAX_STAMINA
 var is_sprinting = false
 
 func _ready():
@@ -22,6 +28,8 @@ func _ready():
 		capsule.height = STAND_HEIGHT
 		collision_shape.position.y = 0
 		camera.position.y = STAND_HEIGHT
+		stamina_bar.max_value = MAX_STAMINA
+		stamina_bar.value = stamina
 
 func _unhandled_input(event) -> void:
 	if event is InputEventMouseButton:
@@ -58,7 +66,23 @@ func _physics_process(delta: float) -> void:
 	var direction = (neck.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	var current_speed = CROUCH_SPEED if is_crouching else (SPRINT_SPEED if is_sprinting else SPEED)
 	
+	is_sprinting = Input.is_action_pressed("sprint") and stamina > 0
+	
 	if direction:
+		if is_sprinting:
+			current_speed = SPRINT_SPEED
+			stamina -= STAMINA_DRAIN_RATE * delta
+			if stamina <= 0:
+				stamina = 0
+				is_sprinting = false
+				current_speed = SPEED
+		else:
+			stamina += STAMINA_RECOVERY_RATE * delta
+			current_speed = SPEED
+		
+		stamina = clamp(stamina, 0, MAX_STAMINA)
+		stamina_bar.value = stamina
+		
 		velocity.x = direction.x * current_speed
 		velocity.z = direction.z * current_speed
 	else:

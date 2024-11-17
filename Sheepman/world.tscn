@@ -60,6 +60,20 @@ shape = SubResource("ConvexPolygonShape3D_c8u3l")
 [node name="CharacterBody3D" parent="MeshInstance3D/StaticBody3D2" instance=ExtResource("1_6pd2v")]
 transform = Transform3D(0.0177801, 0, 0, 0, 0.0177801, 0, 0, 0, 0.0177801, 0.067896, 0.090626, 0.0135949)
 
+[node name="StaminaLayer" type="CanvasLayer" parent="MeshInstance3D/StaticBody3D2/CharacterBody3D"]
+layer = 0
+
+[node name="StaminaBar" type="ProgressBar" parent="MeshInstance3D/StaticBody3D2/CharacterBody3D/StaminaLayer"]
+modulate = Color(0.462727, 0.932244, 0.842986, 1)
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -57.0
+offset_bottom = 27.0
+grow_horizontal = 0
+step = 0.0
+value = 100.0
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_dr615")
 
