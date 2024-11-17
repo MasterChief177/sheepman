@@ -1,16 +1,18 @@
 extends CharacterBody3D
 
-const SPEED = 3.0
-const JUMP_VELOCITY = 4.0
-const CROUCH_SPEED = 1.0
-const SPRINT_SPEED = 8.0
-const STAND_HEIGHT = 2.0
-const CROUCH_HEIGHT = 0.5
+const SPEED = 3.0 # Player speed
+const JUMP_VELOCITY = 4.0 # Player jump velocity (upward force)
+const CROUCH_SPEED = 1.0 # How fast the player can crouch
+const CROUCHED_MOVE_SPEED = 1.5  # Player speed while crouched
+const SPRINT_SPEED = 8.0 # Player speed while sprinting
+const STAND_HEIGHT = 2.0 # Player height while standing
+const CROUCH_HEIGHT = 0.5 # Player height while crouching
+const JUMP_COST_STAMINA = 5 # Stamina cost for jumping
 
-const MAX_STAMINA = 100.0
-const STAMINA_DRAIN_RATE = 10.0
-const STAMINA_RECOVERY_RATE = 5.0
-const CROUCH_STAMINA_RECOVERY_MULTIPLIER = 2.0  # Add this line
+const MAX_STAMINA = 100.0 # Maximum stamina
+const STAMINA_DRAIN_RATE = 10.0 # Stamina drain rate while sprinting
+const STAMINA_RECOVERY_RATE = 5.0 # Stamina recovery rate while not sprinting
+const CROUCH_STAMINA_RECOVERY_MULTIPLIER = 2.0  # Stamina recovery multiplier while crouching
 
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var neck := $Neck
@@ -21,6 +23,7 @@ var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 var is_crouching = false
 var stamina = MAX_STAMINA
 var is_sprinting = false
+var is_jumping = false
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -59,40 +62,37 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 
 	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor() and stamina >= JUMP_COST_STAMINA:
 		velocity.y = JUMP_VELOCITY
+		stamina -= JUMP_COST_STAMINA
 
 	# Get the input direction and handle the movement/deceleration.
 	var input_dir := Input.get_vector("left", "right", "forward", "back")
 	var direction = (neck.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	var current_speed = CROUCH_SPEED if is_crouching else (SPRINT_SPEED if is_sprinting else SPEED)
+	var current_speed = SPEED  # Default to normal speed
 	
-	is_sprinting = Input.is_action_pressed("sprint") and stamina > 0
+	if is_crouching:
+		current_speed = CROUCHED_MOVE_SPEED
+	elif Input.is_action_pressed("sprint") and stamina > 0:
+		current_speed = SPRINT_SPEED
+		stamina -= STAMINA_DRAIN_RATE * delta
+		if stamina <= 0:
+			stamina = 0
+			current_speed = SPEED
 	
 	if direction:
-		if is_sprinting:
-			current_speed = SPRINT_SPEED
-			stamina -= STAMINA_DRAIN_RATE * delta
-			if stamina <= 0:
-				stamina = 0
-				is_sprinting = false
-				current_speed = SPEED
-		else:
-			# Recovery while moving (not sprinting)
-			stamina += STAMINA_RECOVERY_RATE * delta
-			current_speed = SPEED
-		
 		velocity.x = direction.x * current_speed
 		velocity.z = direction.z * current_speed
 	else:
-		# Recovery while standing still
+		velocity.x = move_toward(velocity.x, 0, current_speed)
+		velocity.z = move_toward(velocity.z, 0, current_speed)
+	
+	# Only recover stamina when on floor
+	if is_on_floor():
 		var recovery_rate = STAMINA_RECOVERY_RATE
 		if is_crouching:
 			recovery_rate *= CROUCH_STAMINA_RECOVERY_MULTIPLIER
 		stamina += recovery_rate * delta
-		
-		velocity.x = move_toward(velocity.x, 0, current_speed)
-		velocity.z = move_toward(velocity.z, 0, current_speed)
 
 	stamina = clamp(stamina, 0, MAX_STAMINA)
 	stamina_bar.value = stamina
