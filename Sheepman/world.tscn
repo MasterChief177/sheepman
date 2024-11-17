@@ -331,12 +331,12 @@ grow_vertical = 2
 scale = Vector2(0.307586, 0.32)
 texture = SubResource("CanvasTexture_dax2c")
 
-[node name="Flashlight" parent="." groups=["pickupable"] instance=ExtResource("6_5bbcs")]
+[node name="PickUpObject" parent="." groups=["pickupable"] instance=ExtResource("6_5bbcs")]
 transform = Transform3D(-0.0363458, -0.000280259, 0.0561301, -0.000268451, 0.0743688, 0.000149375, -0.0656959, -0.000148841, -0.0310542, 0.374006, 0.90979, 8.04395)
 script = ExtResource("7_68cj5")
 
-[node name="Taschenlampe" type="Area3D" parent="Flashlight" groups=["pickupable"]]
+[node name="Taschenlampe" type="Area3D" parent="PickUpObject" groups=["pickupable"]]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Flashlight/Taschenlampe" groups=["pickupable"]]
-transform = Transform3D(-3.35127, -0.160846, -0.919517, -1.37567, -0.137744, 2.23463, -0.184173, 3.95566, 0.0404246, -0.0277405, 0.857677, 0.0428696)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PickUpObject/Taschenlampe" groups=["pickupable"]]
+transform = Transform3D(3.71867, -0.600256, 1.34579, -1.38954, -0.21231, 3.74488, -0.490539, -3.949, -0.405899, -0.140305, 0.579899, 0.294003)
 shape = SubResource("CylinderShape3D_tpcu0")

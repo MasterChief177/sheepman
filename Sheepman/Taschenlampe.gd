@@ -1,6 +1,6 @@
 extends Node3D
 
-signal picked_up  # Korrigierter Signalname
+signal pickedup  # Korrigierter Signalname
 
 @onready var area = $Taschenlampe
 
