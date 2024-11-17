@@ -24,6 +24,7 @@ var is_crouching = false
 var stamina = MAX_STAMINA
 var is_sprinting = false
 var is_jumping = false
+var pickup_in_range = null 
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -34,6 +35,7 @@ func _ready():
 		camera.position.y = STAND_HEIGHT
 		stamina_bar.max_value = MAX_STAMINA
 		stamina_bar.value = stamina
+		add_to_group("player")
 
 func _unhandled_input(event) -> void:
 	if event is InputEventMouseButton:
@@ -45,6 +47,12 @@ func _unhandled_input(event) -> void:
 			neck.rotate_y(-event.relative.x * 0.01)
 			camera.rotate_x(-event.relative.y * 0.01)
 			camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-30), deg_to_rad(60))
+
+func _input(event):
+	if event.is_action_pressed("pickup") and pickup_in_range:
+		pickup_in_range.emit_signal("picked_up")
+		pickup_in_range.queue_free()
+		pickup_in_range = null
 
 func has_space_to_stand() -> bool:
 	var space_check_start = global_transform.origin
@@ -118,6 +126,21 @@ func _physics_process(delta: float) -> void:
 				capsule.height = STAND_HEIGHT
 				collision_shape.position.y = 0
 				camera.position.y = STAND_HEIGHT
-
+				
+				
+	# Handle object pickup
+	if Input.is_action_just_pressed("pickup") and pickup_in_range:
+		pickup_in_range.emit_signal("picked_up")
+		pickup_in_range.queue_free() # Objekt aus der Szene entfernen
+		pickup_in_range = null
+		
 	# Handle sprinting input
 	is_sprinting = Input.is_action_pressed("sprint") and not is_crouching
+	
+func _on_body_entered(body):
+	if body.is_in_group("pickupable"):
+		pickup_in_range = body
+		
+func _on_body_exited(body):
+	if body == pickup_in_range:
+		pickup_in_range = null
