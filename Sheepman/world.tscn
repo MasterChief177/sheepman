@@ -85,34 +85,44 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000766158, -0.00659537, -0.
 [node name="Bank" parent="Main Haus" instance=ExtResource("2_kp6gu")]
 transform = Transform3D(0.527566, 0, 0, 0, 0.309324, 0, 0, 0, 0.449588, 0.50709, 0.0107875, 11.1933)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Main Haus/Bank"]
+[node name="Sitzfläche" type="MeshInstance3D" parent="Main Haus/Bank"]
 transform = Transform3D(8.33443, 0, 0, 0, -0.157534, 0, 0, 0, 2.13189, 0, 1.77111, 0)
 visible = false
 mesh = SubResource("BoxMesh_kfv8y")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/MeshInstance3D"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/Sitzfläche"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/MeshInstance3D/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/Sitzfläche/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_k8i8h")
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="Main Haus/Bank"]
-transform = Transform3D(8.36332, 0, 0, 0, -5.20014, 0, 0, 0, 0.256647, 0, 1.77111, 1.17729)
+[node name="Anlähne" type="MeshInstance3D" parent="Main Haus/Bank"]
+transform = Transform3D(8.3673, 0, 0, 0, -2.41121, 0, 0, 0, 0.343586, 0, 3.13524, 1.33331)
 visible = false
 mesh = SubResource("BoxMesh_kfv8y")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/MeshInstance3D2"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/Anlähne"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/MeshInstance3D2/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/Anlähne/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_k8i8h")
 
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="Main Haus/Bank"]
-transform = Transform3D(8.36332, 0, 0, 0, -1.94131, 0, 0, 0, 0.364265, 0.0388057, 0.678395, -0.841431)
+[node name="Fuß_vorne" type="MeshInstance3D" parent="Main Haus/Bank"]
+transform = Transform3D(8.36332, 0, 0, 0, -1.50462, 0, 0, 0, 0.364265, 0.0340894, 0.860264, -0.841997)
 visible = false
 mesh = SubResource("BoxMesh_kfv8y")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/MeshInstance3D3"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/Fuß_vorne"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/MeshInstance3D3/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/Fuß_vorne/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_k8i8h")
+
+[node name="Fuß_hinten" type="MeshInstance3D" parent="Main Haus/Bank"]
+transform = Transform3D(8.36332, 0, 0, 0, -1.94131, 0, 0, 0, 0.364265, 0.0388057, 1.05354, 1.1417)
+visible = false
+mesh = SubResource("BoxMesh_kfv8y")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Main Haus/Bank/Fuß_hinten"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Main Haus/Bank/Fuß_hinten/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_k8i8h")
 
 [node name="Tisch" parent="Main Haus" instance=ExtResource("3_7ypw7")]
