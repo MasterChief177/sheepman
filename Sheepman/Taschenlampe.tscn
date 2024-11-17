@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cb8fjoase3u0h"]
+
+[ext_resource type="Script" path="res://taschenlampe2.gd" id="1_moll2"]
+[ext_resource type="PackedScene" uid="uid://nfwg4tl3iqw2" path="res://Modells/Taschenlampe.blend" id="1_v0bjn"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k4ygr"]
+height = 2.76721
+
+[node name="RigidBody3D" type="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.02115, 0)
+script = ExtResource("1_moll2")
+
+[node name="Taschenlampe" parent="." instance=ExtResource("1_v0bjn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.90292, 0, -3.6427)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(3.01344, 0, 0, 0, 0.172258, -3.00851, 0, 3.00851, 0.172258, -3.87018, 0.513887, -3.60259)
+shape = SubResource("CapsuleShape3D_k4ygr")

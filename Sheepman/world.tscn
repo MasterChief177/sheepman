@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://d1y261w5dcffc"]
+[gd_scene load_steps=27 format=3 uid="uid://d1y261w5dcffc"]
 
 [ext_resource type="PackedScene" uid="uid://d05ilhvdw5r6s" path="res://character_body_3d.tscn" id="1_6pd2v"]
 [ext_resource type="PackedScene" uid="uid://d22kjm20vqfl4" path="res://Modells/Bank.blend" id="2_kp6gu"]
@@ -6,8 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://1cjukc7uv48k" path="res://Modells/Tasse.blend" id="4_2ac63"]
 [ext_resource type="PackedScene" uid="uid://b1u78x43mrxby" path="res://Modells/Buch_Lila.blend" id="5_2ryts"]
 [ext_resource type="PackedScene" uid="uid://oyxi5fwr8mxj" path="res://Modells/Fernseher.blend" id="5_lfsnb"]
-[ext_resource type="PackedScene" uid="uid://nfwg4tl3iqw2" path="res://Modells/Taschenlampe.blend" id="6_5bbcs"]
-[ext_resource type="Script" path="res://Taschenlampe.gd" id="7_68cj5"]
+[ext_resource type="PackedScene" uid="uid://cb8fjoase3u0h" path="res://Taschenlampe.tscn" id="7_a5pth"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wbhdt"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -63,9 +62,6 @@ points = PackedVector3Array(-0.5, -1, 0, -0.497651, -1, -0.0490407, -0.497651, -
 [sub_resource type="CanvasTexture" id="CanvasTexture_dax2c"]
 specular_color = Color(0.442911, 0.442911, 0.442911, 1)
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_tpcu0"]
-height = 1.70268
-
 [node name="World" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.617729, 1.10688, -0.802798)
 
@@ -84,6 +80,7 @@ shape = SubResource("ConvexPolygonShape3D_c8u3l")
 
 [node name="Main Haus" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000766158, -0.00659537, -0.00662708)
+visible = false
 
 [node name="Bank" parent="Main Haus" instance=ExtResource("2_kp6gu")]
 transform = Transform3D(0.527566, 0, 0, 0, 0.309324, 0, 0, 0, 0.449588, 0.50709, 0.0107875, 11.1933)
@@ -331,12 +328,5 @@ grow_vertical = 2
 scale = Vector2(0.307586, 0.32)
 texture = SubResource("CanvasTexture_dax2c")
 
-[node name="PickUpObject" parent="." groups=["pickupable"] instance=ExtResource("6_5bbcs")]
-transform = Transform3D(-0.0363458, -0.000280259, 0.0561301, -0.000268451, 0.0743688, 0.000149375, -0.0656959, -0.000148841, -0.0310542, 0.374006, 0.90979, 8.04395)
-script = ExtResource("7_68cj5")
-
-[node name="Taschenlampe" type="Area3D" parent="PickUpObject" groups=["pickupable"]]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PickUpObject/Taschenlampe" groups=["pickupable"]]
-transform = Transform3D(3.71867, -0.600256, 1.34579, -1.38954, -0.21231, 3.74488, -0.490539, -3.949, -0.405899, -0.140305, 0.579899, 0.294003)
-shape = SubResource("CylinderShape3D_tpcu0")
+[node name="RigidBody3D" parent="." instance=ExtResource("7_a5pth")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.33069, 3.94872, 0.634721)
