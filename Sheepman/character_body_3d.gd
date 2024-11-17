@@ -10,6 +10,7 @@ const CROUCH_HEIGHT = 0.5
 const MAX_STAMINA = 100.0
 const STAMINA_DRAIN_RATE = 10.0
 const STAMINA_RECOVERY_RATE = 5.0
+const CROUCH_STAMINA_RECOVERY_MULTIPLIER = 2.0  # Add this line
 
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var neck := $Neck
@@ -77,18 +78,25 @@ func _physics_process(delta: float) -> void:
 				is_sprinting = false
 				current_speed = SPEED
 		else:
+			# Recovery while moving (not sprinting)
 			stamina += STAMINA_RECOVERY_RATE * delta
 			current_speed = SPEED
-		
-		stamina = clamp(stamina, 0, MAX_STAMINA)
-		stamina_bar.value = stamina
 		
 		velocity.x = direction.x * current_speed
 		velocity.z = direction.z * current_speed
 	else:
+		# Recovery while standing still
+		var recovery_rate = STAMINA_RECOVERY_RATE
+		if is_crouching:
+			recovery_rate *= CROUCH_STAMINA_RECOVERY_MULTIPLIER
+		stamina += recovery_rate * delta
+		
 		velocity.x = move_toward(velocity.x, 0, current_speed)
 		velocity.z = move_toward(velocity.z, 0, current_speed)
 
+	stamina = clamp(stamina, 0, MAX_STAMINA)
+	stamina_bar.value = stamina
+	
 	move_and_slide()
 
 	# Handle crouching and standing
