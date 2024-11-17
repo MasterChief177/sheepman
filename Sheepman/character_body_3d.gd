@@ -61,14 +61,17 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
+	
+	var input_dir := Input.get_vector("left", "right", "forward", "back")
+	var direction = Vector3(input_dir.x, 0, input_dir.y).rotated(Vector3.UP, neck.global_rotation.y).normalized()
+	
+
 	# Handle jump.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor() and stamina >= JUMP_COST_STAMINA:
 		velocity.y = JUMP_VELOCITY
 		stamina -= JUMP_COST_STAMINA
 
 	# Get the input direction and handle the movement/deceleration.
-	var input_dir := Input.get_vector("left", "right", "forward", "back")
-	var direction = (neck.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	var current_speed = SPEED  # Default to normal speed
 	
 	if is_crouching:
