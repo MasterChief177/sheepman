@@ -50,8 +50,7 @@ func _unhandled_input(event) -> void:
 
 func _input(event):
 	if event.is_action_pressed("pickup") and pickup_in_range:
-		pickup_in_range.emit_signal("picked_up")
-		pickup_in_range.queue_free()
+		pickup_in_range.pickup()
 		pickup_in_range = null
 
 func has_space_to_stand() -> bool:
