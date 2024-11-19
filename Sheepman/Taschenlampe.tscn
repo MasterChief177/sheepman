@@ -7,7 +7,7 @@
 height = 2.76721
 
 [node name="RigidBody3D" type="RigidBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.02115, 0)
+transform = Transform3D(-0.0842204, 0, -0.000326317, 0, 0.0932028, 0, 0.000326317, 0, -0.0842204, 0, 1.74601, 0)
 script = ExtResource("1_moll2")
 
 [node name="Taschenlampe" parent="." instance=ExtResource("1_v0bjn")]

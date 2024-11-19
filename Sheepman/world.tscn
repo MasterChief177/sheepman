@@ -80,7 +80,6 @@ shape = SubResource("ConvexPolygonShape3D_c8u3l")
 
 [node name="Main Haus" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000766158, -0.00659537, -0.00662708)
-visible = false
 
 [node name="Bank" parent="Main Haus" instance=ExtResource("2_kp6gu")]
 transform = Transform3D(0.527566, 0, 0, 0, 0.309324, 0, 0, 0, 0.449588, 0.50709, 0.0107875, 11.1933)
@@ -293,7 +292,7 @@ mesh = SubResource("CylinderMesh_4qsa0")
 shape = SubResource("ConvexPolygonShape3D_uv5yp")
 
 [node name="CharacterBody3D" parent="." instance=ExtResource("1_6pd2v")]
-transform = Transform3D(-0.340652, 0, -0.102026, 0, 0.355602, 0, 0.102026, 0, -0.340652, -0.02752, 0.430275, -0.000649989)
+transform = Transform3D(-0.313285, 0, -0.168243, 0, 0.355602, 0, 0.168243, 0, -0.313285, -0.02752, 0.430275, -0.000649989)
 
 [node name="StaminaLayer" type="CanvasLayer" parent="CharacterBody3D"]
 layer = 0
@@ -328,5 +327,20 @@ grow_vertical = 2
 scale = Vector2(0.307586, 0.32)
 texture = SubResource("CanvasTexture_dax2c")
 
+[node name="Neck" type="Node3D" parent="CharacterBody3D"]
+
+[node name="Hand" type="Node3D" parent="CharacterBody3D/Neck"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.860047, 0.416054, -2.38419e-07)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Neck"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.649943, 0)
+
+[node name="reach" type="RayCast3D" parent="CharacterBody3D/Neck/Camera3D"]
+transform = Transform3D(0.355602, 0, 1.49012e-08, 0, 0.355602, 0, -1.49012e-08, 0, 0.355602, 0, -0.231121, 0)
+target_position = Vector3(0, 0, -5)
+
+[node name="check_for_object2" type="RayCast3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, -1, -0.000104636, 0, 0.000104636, -1, 0, 0.992415, 0)
+
 [node name="RigidBody3D" parent="." instance=ExtResource("7_a5pth")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.33069, 3.94872, 0.634721)
+transform = Transform3D(-0.0842204, 0, -0.000326317, 0, 0.0932028, 0, 0.000326317, 0, -0.0842204, 2.95961, 0.244679, 1.1778)

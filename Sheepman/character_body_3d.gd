@@ -19,7 +19,12 @@ var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var camera := $Neck/Camera3D
 @onready var collision_shape := $CollisionShape3D
 @onready var stamina_bar := $StaminaLayer/StaminaBar
+@onready var reach = $Neck/Camera3D/reach
+@onready var hand = $Neck/Hand
+@onready var Taschnelampe = preload("res://Taschenlampe.tscn")
 
+var WeaponToSpawn
+var WeaponToDorp
 var is_crouching = false
 var stamina = MAX_STAMINA
 var is_sprinting = false
@@ -143,3 +148,29 @@ func _on_body_entered(body):
 func _on_body_exited(body):
 	if body == pickup_in_range:
 		pickup_in_range = null
+		
+func _process(delta):
+	if reach.is_colliding():
+		if reach.get_collider().get_name() == "Taschnelampe":
+			WeaponToSpawn = Taschnelampe.instantiate()
+		else:
+			WeaponToSpawn = null
+	else:
+		WeaponToSpawn = null
+		
+	if hand.get_child(0) != null:
+		if hand.get_child(0).get_name() == "Taschnelampe":
+			WeaponToDorp = Taschnelampe.instantiate()
+	else:
+		WeaponToSpawn = null
+		
+	if Input.is_action_just_pressed("interact"):
+		if WeaponToSpawn != null:
+			if hand.get_child(0) != null:
+				get_parent().add_child(WeaponToSpawn)
+				WeaponToDorp.global_transform = hand.global_transform
+				WeaponToDorp.dropped = true
+				hand.get_child(0).queue_free()
+				reach.get_collider().queue_free()
+				hand.add_child(WeaponToSpawn)
+				WeaponToSpawn. rotation = hand.rotation
