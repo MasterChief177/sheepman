@@ -21,10 +21,10 @@ var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var stamina_bar := $StaminaLayer/StaminaBar
 @onready var reach = $Neck/Camera3D/reach
 @onready var hand = $Neck/Hand
-@onready var Taschnelampe = preload("res://Taschenlampe.tscn")
+@onready var Taschenlampe = preload("res://Taschenlampe.tscn")
 
-var WeaponToSpawn
-var WeaponToDorp
+var weapon_to_spawn
+var weapon_to_drop
 var is_crouching = false
 var stamina = MAX_STAMINA
 var is_sprinting = false
@@ -54,7 +54,7 @@ func _unhandled_input(event) -> void:
 			camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-30), deg_to_rad(60))
 
 func _input(event):
-	if event.is_action_pressed("pickup") and pickup_in_range:
+	if event.is_action_pressed("interact") and pickup_in_range:
 		pickup_in_range.pickup()
 		pickup_in_range = null
 
@@ -130,47 +130,36 @@ func _physics_process(delta: float) -> void:
 				capsule.height = STAND_HEIGHT
 				collision_shape.position.y = 0
 				camera.position.y = STAND_HEIGHT
-				
-				
-	# Handle object pickup
-	if Input.is_action_just_pressed("pickup") and pickup_in_range:
-		pickup_in_range.emit_signal("picked_up")
-		pickup_in_range.queue_free() # Objekt aus der Szene entfernen
-		pickup_in_range = null
 		
 	# Handle sprinting input
 	is_sprinting = Input.is_action_pressed("sprint") and not is_crouching
-	
-func _on_body_entered(body):
-	if body.is_in_group("pickupable"):
-		pickup_in_range = body
-		
+
 func _on_body_exited(body):
 	if body == pickup_in_range:
 		pickup_in_range = null
 		
 func _process(delta):
 	if reach.is_colliding():
-		if reach.get_collider().get_name() == "Taschnelampe":
-			WeaponToSpawn = Taschnelampe.instantiate()
+		if reach.get_collider().get_name() == "Taschenlampe":
+			weapon_to_spawn = Taschenlampe.instance()
 		else:
-			WeaponToSpawn = null
+			weapon_to_spawn = null
 	else:
-		WeaponToSpawn = null
+		weapon_to_spawn = null
 		
 	if hand.get_child(0) != null:
-		if hand.get_child(0).get_name() == "Taschnelampe":
-			WeaponToDorp = Taschnelampe.instantiate()
+		if hand.get_child(0).get_name() == "Taschenlampe":
+			weapon_to_drop = Taschenlampe.instance()
 	else:
-		WeaponToSpawn = null
+		weapon_to_drop = null
 		
 	if Input.is_action_just_pressed("interact"):
-		if WeaponToSpawn != null:
+		if weapon_to_spawn != null:
 			if hand.get_child(0) != null:
-				get_parent().add_child(WeaponToSpawn)
-				WeaponToDorp.global_transform = hand.global_transform
-				WeaponToDorp.dropped = true
+				get_parent().add_child(weapon_to_spawn)
+				weapon_to_drop.global_transform = hand.global_transform
+				weapon_to_drop.dropped = true
 				hand.get_child(0).queue_free()
-				reach.get_collider().queue_free()
-				hand.add_child(WeaponToSpawn)
-				WeaponToSpawn. rotation = hand.rotation
+			reach.get_collider().queue_free()
+			hand.add_child(weapon_to_spawn)
+			weapon_to_spawn. rotation = hand.rotation

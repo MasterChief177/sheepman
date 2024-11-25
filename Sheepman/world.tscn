@@ -329,18 +329,21 @@ texture = SubResource("CanvasTexture_dax2c")
 
 [node name="Neck" type="Node3D" parent="CharacterBody3D"]
 
-[node name="Hand" type="Node3D" parent="CharacterBody3D/Neck"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.860047, 0.416054, -2.38419e-07)
-
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Neck"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.649943, 0)
+
+[node name="TextureRect" type="TextureRect" parent="CharacterBody3D/Neck/Camera3D"]
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="reach" type="RayCast3D" parent="CharacterBody3D/Neck/Camera3D"]
 transform = Transform3D(0.355602, 0, 1.49012e-08, 0, 0.355602, 0, -1.49012e-08, 0, 0.355602, 0, -0.231121, 0)
 target_position = Vector3(0, 0, -5)
 
+[node name="Hand" type="Node3D" parent="CharacterBody3D/Neck"]
+transform = Transform3D(1, 0, 2.98023e-08, 0, 1, 0, -2.98023e-08, 0, 1, 0.860047, 0.416054, -2.38419e-07)
+
 [node name="check_for_object2" type="RayCast3D" parent="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, -1, -0.000104636, 0, 0.000104636, -1, 0, 0.992415, 0)
 
 [node name="RigidBody3D" parent="." instance=ExtResource("7_a5pth")]
-transform = Transform3D(-0.0842204, 0, -0.000326317, 0, 0.0932028, 0, 0.000326317, 0, -0.0842204, 2.95961, 0.244679, 1.1778)
