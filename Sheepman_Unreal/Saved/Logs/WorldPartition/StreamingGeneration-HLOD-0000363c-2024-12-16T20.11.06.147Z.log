@@ -1,0 +1,20 @@
+[+] Containers:
+ |- [+] Container: /Game/TestMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:15E01F40488D01028ED32A912DF3B17C NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C840007F3902_1666117041 Label:Plane SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- Guid:A8639B2A456FCEA8B954548595D80F2E NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_E848B8C840007D3902_1323939688 Label:DirectionalLight SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:15E01F40488D01028ED32A912DF3B17C NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C840007F3902_1666117041 Label:Plane SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:A8639B2A456FCEA8B954548595D80F2E NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_E848B8C840007D3902_1323939688 Label:DirectionalLight SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/TestMap

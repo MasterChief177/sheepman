@@ -1,0 +1,86 @@
+[+] Containers:
+ |- [+] Container: /Game/TestMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:15E01F40488D01028ED32A912DF3B17C NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C840007F3902_1666117041 Label:Plane SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-5000.000 Y=-5000.000 Z=-0.000), Max=(X=5000.000 Y=5000.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=-5000.000 Y=-5000.000 Z=-0.000), Max=(X=5000.000 Y=5000.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:4BEEE3A549A5CBD9F2FE2389D6341E6C NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C84000813902_1811998396 Label:Cylinder SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=300.000 Y=-120.000 Z=0.000), Max=(X=400.000 Y=-20.000 Z=100.000) RuntimeBounds:IsValid=true, Min=(X=300.000 Y=-120.000 Z=0.000), Max=(X=400.000 Y=-20.000 Z=100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- Guid:9D40C89E4F9110617A3BDEB6FE117393 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C84000833902_1275045749 Label:Cube SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=940.000 Y=-805.000 Z=50.000), Max=(X=1040.000 Y=945.000 Z=150.000) RuntimeBounds:IsValid=true, Min=(X=940.000 Y=-805.000 Z=50.000), Max=(X=1040.000 Y=945.000 Z=150.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:A8639B2A456FCEA8B954548595D80F2E NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_E848B8C840007D3902_1323939688 Label:DirectionalLight SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:D35D34444D521062C98D1EB16F2C3BC7 BaseClass:/Game/Blueprints/Player.Player_C NativeClass:/Script/Engine.Character Name:Player_C_UAID_E848B8C84000813902_1512958395 Label:Player SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=16.000 Y=-140.000 Z=-20.000), Max=(X=290.000 Y=20.000 Z=156.000) RuntimeBounds:IsValid=true, Min=(X=16.000 Y=-94.000 Z=-20.000), Max=(X=84.000 Y=-26.000 Z=156.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:FE1CF1F2455359272CB48E95E4A2DB3F NativeClass:/Script/Engine.WorldPartitionHLOD Name:TestMap_HLOD0_Instancing_0000000001fe00d9 Label:TestMap_HLOD0_Instancing/TestMap_MainGrid_L0_X0_Y0_Z0 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeGrid:MainGrid:PersistentLevel EditorOnly:false RuntimeOnly:true HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false FolderPath:HLOD/TestMap_HLOD0_Instancing FolderGuid:D71A918248FB573331C28390E4537916
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:15E01F40488D01028ED32A912DF3B17C NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C840007F3902_1666117041 Label:Plane SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-5000.000 Y=-5000.000 Z=-0.000), Max=(X=5000.000 Y=5000.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=-5000.000 Y=-5000.000 Z=-0.000), Max=(X=5000.000 Y=5000.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:4BEEE3A549A5CBD9F2FE2389D6341E6C NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C84000813902_1811998396 Label:Cylinder SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=300.000 Y=-120.000 Z=0.000), Max=(X=400.000 Y=-20.000 Z=100.000) RuntimeBounds:IsValid=true, Min=(X=300.000 Y=-120.000 Z=0.000), Max=(X=400.000 Y=-20.000 Z=100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeBounds:IsValid=true, Min=(X=-128.000 Y=-128.000 Z=-128.000), Max=(X=128.000 Y=128.000 Z=128.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:9D40C89E4F9110617A3BDEB6FE117393 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E848B8C84000833902_1275045749 Label:Cube SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=940.000 Y=-805.000 Z=50.000), Max=(X=1040.000 Y=945.000 Z=150.000) RuntimeBounds:IsValid=true, Min=(X=940.000 Y=-805.000 Z=50.000), Max=(X=1040.000 Y=945.000 Z=150.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:A8639B2A456FCEA8B954548595D80F2E NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_E848B8C840007D3902_1323939688 Label:DirectionalLight SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:D35D34444D521062C98D1EB16F2C3BC7 BaseClass:/Game/Blueprints/Player.Player_C NativeClass:/Script/Engine.Character Name:Player_C_UAID_E848B8C84000813902_1512958395 Label:Player SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=16.000 Y=-140.000 Z=-20.000), Max=(X=290.000 Y=20.000 Z=156.000) RuntimeBounds:IsValid=true, Min=(X=16.000 Y=-94.000 Z=-20.000), Max=(X=84.000 Y=-26.000 Z=156.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:FE1CF1F2455359272CB48E95E4A2DB3F NativeClass:/Script/Engine.WorldPartitionHLOD Name:TestMap_HLOD0_Instancing_0000000001fe00d9 Label:TestMap_HLOD0_Instancing/TestMap_MainGrid_L0_X0_Y0_Z0 SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeBounds:IsValid=true, Min=(X=-150.000 Y=-150.000 Z=-0.000), Max=(X=150.000 Y=150.000 Z=0.000) RuntimeGrid:MainGrid:PersistentLevel EditorOnly:false RuntimeOnly:true HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false FolderPath:HLOD/TestMap_HLOD0_Instancing FolderGuid:D71A918248FB573331C28390E4537916
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-5000.000 Y=-5000.000 Z=-20.000), Max=(X=5000.000 Y=5000.000 Z=156.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/TestMap
+----------------------------------------------------------------------------------------------------------------
+TestMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of TestMap Persistent Level
+ |- Always loaded Actor Count: 3 
+ |- Actor Path: /Game/TestMap.TestMap:PersistentLevel.DirectionalLight_UAID_E848B8C840007D3902_1323939688
+ |- Actor Package: /Game/__ExternalActors__/TestMap/3/KU/OX817H8LO8CK6KW44DY0SL
+ |- Actor Path: /Game/TestMap.TestMap:PersistentLevel.TestMap_HLOD0_Instancing_0000000001fe00d9
+ |- Actor Package: /Game/__ExternalActors__/TestMap/0/63/S2WXFUO48XUVZWJL4KD09K
+ |- Actor Path: /Game/TestMap.TestMap:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/TestMap/E/TW/7ZXSPLVEY4VUDZVF8ISN4D
+
+----------------------------------------------------------------------------------------------------------------
+TestMap - Runtime Hash Set
+----------------------------------------------------------------------------------------------------------------
+[+] Content of Cell TestMap_MainGrid_L0_X0_Y0_Z0 (ARLHY1RJKV9CY9L2MMNHBGIQF)
+ |- Actor Count: 2
+ |- Content Bounds: IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=5000.000 Y=5000.000 Z=150.000)
+ |- Cell Bounds: IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=25200.000 Y=25200.000 Z=25200.000)
+ |- Is 2D: False
+ |- [+] /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C840007F3902_1666117041
+ |   |-         Package: /Game/__ExternalActors__/TestMap/A/8A/ZXOSHZFE2N5LKU1FKUM7YF
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 15E01F40488D01028ED32A912DF3B17C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000833902_1275045749
+ |   |-         Package: /Game/__ExternalActors__/TestMap/A/H9/3OGRCP0AM11X0MJQTZ4FXB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9D40C89E4F9110617A3BDEB6FE117393
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell TestMap_MainGrid_L0_X0_Y-1_Z0 (BA89KYU539WM3FV62SGQJSVXE)
+ |- Actor Count: 2
+ |- Content Bounds: IsValid=true, Min=(X=16.000 Y=-120.000 Z=0.000), Max=(X=400.000 Y=-20.000 Z=156.000)
+ |- Cell Bounds: IsValid=true, Min=(X=0.000 Y=-25200.000 Z=0.000), Max=(X=25200.000 Y=0.000 Z=25200.000)
+ |- Is 2D: False
+ |- [+] /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000813902_1811998396
+ |   |-         Package: /Game/__ExternalActors__/TestMap/2/U5/LD63CAV6GPO1QDTTA3QJGH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 4BEEE3A549A5CBD9F2FE2389D6341E6C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/TestMap.TestMap:PersistentLevel.Player_C_UAID_E848B8C84000813902_1512958395
+ |   |-         Package: /Game/__ExternalActors__/TestMap/6/H4/5ERM5EEA9UNDN7W1UBON8I
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D35D34444D521062C98D1EB16F2C3BC7
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+
