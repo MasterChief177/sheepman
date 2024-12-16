@@ -1998,3 +1998,644 @@ Sampler Limit: 32
 [2024.12.16-20.31.03:082][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
 [2024.12.16-20.31.03:107][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
 [2024.12.16-20.31.03:120][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.976 ms (total: 583.306 ms)
+[2024.12.16-20.33.11:027][316]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1018.691772
+[2024.12.16-20.33.11:205][334]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.16-20.33.11:205][334]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1018.860474, Update Interval: 344.543579
+[2024.12.16-20.38.07:277][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.12.16-20.38.07:279][175]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TestMap' took 0.033
+[2024.12.16-20.38.07:280][175]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([2] browsable assets)...
+[2024.12.16-20.38.07:280][175]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2024.12.16-20.38.07:298][175]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player_Auto2
+[2024.12.16-20.38.07:298][175]LogSavePackage: Moving 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/Player_Auto27248BB0442D95A86907D5EB654148686.tmp' to 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset'
+[2024.12.16-20.38.07:299][175]LogFileHelpers: Auto-saving content packages took 0.020
+[2024.12.16-20.39.05:215][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1372.888672
+[2024.12.16-20.39.06:213][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.16-20.39.06:213][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1373.557861, Update Interval: 321.680359
+[2024.12.16-20.43.12:632][213]LogSlate: Window 'Plugins' being destroyed
+[2024.12.16-20.43.12:648][213]LogSlate: Window 'Plugins' being destroyed
+[2024.12.16-20.43.13:757][304]LogSlate: Window 'Plugin Directories' being destroyed
+[2024.12.16-20.43.13:785][304]LogSlate: Window 'Plugin Directories' being destroyed
+[2024.12.16-20.43.23:332][627]LogStreaming: Display: FlushAsyncLoading(857): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.43.23:383][627]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/BlenderSachen/Bank.fbx]
+[2024.12.16-20.43.26:014][627]LogSlate: Window 'Import Content' being destroyed
+[2024.12.16-20.43.26:047][627]LogInterchangeEngine: [Pending] Importing
+[2024.12.16-20.43.26:090][628]LogStreaming: Display: FlushAsyncLoading(862): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.43.26:120][629]LogStreaming: Display: FlushAsyncLoading(863): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.43.26:168][631]LogStaticMesh: Display: Building static mesh Bank (Required Memory Estimate: 0.782928 MB)...
+[2024.12.16-20.43.26:170][631]LogStaticMesh: Adjacency [0.00s], tris: 502, UVs 1
+[2024.12.16-20.43.26:171][631]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.12.16-20.43.26:171][631]LogStaticMesh: Leaves [0.00s]
+[2024.12.16-20.43.26:190][632]LogStaticMesh: Reduce [0.02s]
+[2024.12.16-20.43.26:197][632]LogStaticMesh: Fallback [0.01s], num tris: 445
+[2024.12.16-20.43.26:197][632]LogStaticMesh: ConstrainClusters:
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Input: 7 Clusters, 879 Triangles and 632 Vertices
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Output without splits: 7 Clusters, 879 Triangles and 642 Vertices
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Output with splits: 7 Clusters, 879 Triangles and 642 Vertices
+[2024.12.16-20.43.26:198][632]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.16-20.43.26:198][632]LogStaticMesh: WritePages:
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Root: GPU size: 9212 bytes. 1 Pages. 9212.000 bytes per page (28.113% utilization).
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Streaming: 0 bytes.
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Page data disk size: 8000 bytes. Fixup data size: 56 bytes.
+[2024.12.16-20.43.26:198][632]LogStaticMesh:   Total GPU size: 9212 bytes, Total disk size: 8056 bytes.
+[2024.12.16-20.43.26:198][632]LogStaticMesh: Encode [0.00s]
+[2024.12.16-20.43.26:198][632]LogStaticMesh: Nanite build [0.03s]
+
+[2024.12.16-20.43.26:201][632]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Bank.Bank
+[2024.12.16-20.43.26:204][632]LogStaticMesh: Warning: Bank has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.12.16-20.43.26:204][632]LogStaticMesh: Warning: Bank has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.12.16-20.43.26:948][634]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.12.16-20.43.28:436][669]LogMeshUtilities: Finished distance field build in 2.2s - 126x56x91 sparse distance field, 0.8Mb total, 0.0Mb always loaded, 69% occupied, 167 triangles, Bank
+[2024.12.16-20.43.30:429][764]LogInterchangeEngine: Display: Interchange import completed [C:/Users/krist/OneDr...eepman/BlenderSachen/Bank.fbx]
+[2024.12.16-20.43.30:431][764]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2024.12.16-20.43.30:431][764]LogInterchangeEngine: [Success] Import Done
+[2024.12.16-20.43.30:521][766]LogPSOHitching: Encountered 50 PSO creation hitches so far (8 graphics, 42 compute). 0 of them were precached.
+[2024.12.16-20.43.30:521][766]LogMaterial: Display: Material /Game/Assets/Material_001.Material_001 needed to have new flag set bUsedWithNanite !
+[2024.12.16-20.43.37:320][151]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.43.37:320][151]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.43.37:321][151]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Bank.Bank as actor: StaticMeshActor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_0
+[2024.12.16-20.43.38:060][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.12.16-20.43.38:061][182]LogEditorActor: Deleted 0 Actors (0.027 secs)
+[2024.12.16-20.43.38:070][182]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.43.38:070][182]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.43.38:073][182]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Bank.Bank as actor: StaticMeshActor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097
+[2024.12.16-20.43.51:696][362]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.43.51:715][362]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2024.12.16-20.43.51:822][362]LogStreaming: Display: FlushAsyncLoading(864): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.43.57:991][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.12.16-20.43.59:875][815]LogSlate: Window 'Save Content' being destroyed
+[2024.12.16-20.44.00:982][910]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.44.00:982][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.44.01:029][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.12.16-20.44.04:855][248]Cmd: DELETE
+[2024.12.16-20.44.04:855][248]Cmd: ACTOR DELETE
+[2024.12.16-20.44.04:856][248]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.06:603][399]Cmd: DELETE
+[2024.12.16-20.44.06:603][399]Cmd: ACTOR DELETE
+[2024.12.16-20.44.06:603][399]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.07:140][453]Cmd: DELETE
+[2024.12.16-20.44.07:140][453]Cmd: ACTOR DELETE
+[2024.12.16-20.44.07:140][453]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.07:518][489]Cmd: DELETE
+[2024.12.16-20.44.07:518][489]Cmd: ACTOR DELETE
+[2024.12.16-20.44.07:518][489]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.08:110][546]Cmd: DELETE
+[2024.12.16-20.44.08:110][546]Cmd: ACTOR DELETE
+[2024.12.16-20.44.08:110][546]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.08:476][582]Cmd: DELETE
+[2024.12.16-20.44.08:476][582]Cmd: ACTOR DELETE
+[2024.12.16-20.44.08:476][582]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.09:908][684]Cmd: DELETE
+[2024.12.16-20.44.09:908][684]Cmd: ACTOR DELETE
+[2024.12.16-20.44.09:908][684]LogEditorActor: Cannot delete component StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2024.12.16-20.44.20:885][421]Cmd: DELETE
+[2024.12.16-20.44.20:885][421]Cmd: ACTOR DELETE
+[2024.12.16-20.44.20:889][421]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.16-20.44.20:922][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.12.16-20.44.20:927][421]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2024.12.16-20.44.28:279][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.12.16-20.44.29:522][ 38]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.16-20.44.29:565][ 38]LogWorldPartition: Actor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000833902_1949970743 is unreachable without properly detaching object /Game/__ExternalActors__/TestMap/F/2K/B04T1FZKAI15EARIY1C8ZC.PackageMetaData in its package
+[2024.12.16-20.44.29:568][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.12.16-20.44.29:592][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.12.16-20.44.29:616][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.12.16-20.44.29:641][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.12.16-20.44.47:274][302]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1714.946167
+[2024.12.16-20.44.48:275][304]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.16-20.44.48:275][304]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1715.613037, Update Interval: 318.091370
+[2024.12.16-20.45.01:028][464]LogStreaming: Display: FlushAsyncLoading(865): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.45.01:078][464]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/BlenderSachen/Bank.fbx]
+[2024.12.16-20.45.03:417][464]LogSlate: Window 'Import Content' being destroyed
+[2024.12.16-20.45.03:454][464]LogInterchangeEngine: [Pending] Importing
+[2024.12.16-20.45.03:493][465]LogStreaming: Display: FlushAsyncLoading(866): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.45.03:528][466]LogStreaming: Display: FlushAsyncLoading(867): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.45.03:567][468]LogStaticMesh: Display: Building static mesh Bank (Required Memory Estimate: 0.782928 MB)...
+[2024.12.16-20.45.03:570][468]LogStaticMesh: Adjacency [0.00s], tris: 502, UVs 1
+[2024.12.16-20.45.03:571][468]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.12.16-20.45.03:571][468]LogStaticMesh: Leaves [0.00s]
+[2024.12.16-20.45.03:595][468]LogStaticMesh: Reduce [0.02s]
+[2024.12.16-20.45.03:599][469]LogStaticMesh: Fallback [0.00s], num tris: 445
+[2024.12.16-20.45.03:600][469]LogStaticMesh: ConstrainClusters:
+[2024.12.16-20.45.03:600][469]LogStaticMesh:   Input: 7 Clusters, 879 Triangles and 632 Vertices
+[2024.12.16-20.45.03:600][469]LogStaticMesh:   Output without splits: 7 Clusters, 879 Triangles and 642 Vertices
+[2024.12.16-20.45.03:601][469]LogStaticMesh:   Output with splits: 7 Clusters, 879 Triangles and 642 Vertices
+[2024.12.16-20.45.03:601][469]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.16-20.45.03:601][469]LogStaticMesh: WritePages:
+[2024.12.16-20.45.03:601][469]LogStaticMesh:   Root: GPU size: 9212 bytes. 1 Pages. 9212.000 bytes per page (28.113% utilization).
+[2024.12.16-20.45.03:601][469]LogStaticMesh:   Streaming: 0 bytes.
+[2024.12.16-20.45.03:601][469]LogStaticMesh:   Page data disk size: 8000 bytes. Fixup data size: 56 bytes.
+[2024.12.16-20.45.03:601][469]LogStaticMesh:   Total GPU size: 9212 bytes, Total disk size: 8056 bytes.
+[2024.12.16-20.45.03:601][469]LogStaticMesh: Encode [0.00s]
+[2024.12.16-20.45.03:601][469]LogStaticMesh: Nanite build [0.03s]
+
+[2024.12.16-20.45.03:603][469]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Bank.Bank
+[2024.12.16-20.45.03:606][469]LogStaticMesh: Warning: Bank has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.12.16-20.45.03:606][469]LogStaticMesh: Warning: Bank has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.12.16-20.45.04:628][472]LogInterchangeEngine: Display: Interchange import completed [C:/Users/krist/OneDr...eepman/BlenderSachen/Bank.fbx]
+[2024.12.16-20.45.04:628][472]Interchange: Warning: [C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/BlenderSachen/Bank.fbx : 'Bank', StaticMesh] No smoothing group information was found for this mesh 'Fläche' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2024.12.16-20.45.04:649][472]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2024.12.16-20.45.04:649][472]LogInterchangeEngine: [Success] Import Done
+[2024.12.16-20.45.04:682][474]LogMaterial: Display: Material /Game/Assets/Material_001.Material_001 needed to have new flag set bUsedWithNanite !
+[2024.12.16-20.45.05:766][526]LogMeshUtilities: Finished distance field build in 1.1s - 126x56x91 sparse distance field, 0.8Mb total, 0.0Mb always loaded, 69% occupied, 167 triangles, Bank
+[2024.12.16-20.45.18:487][413]LogSlate: Window 'Message Log' being destroyed
+[2024.12.16-20.45.18:524][413]LogSlate: Window 'Message Log' being destroyed
+[2024.12.16-20.45.20:494][527]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.20:494][527]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.20:495][527]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Bank.Bank as actor: StaticMeshActor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_1
+[2024.12.16-20.45.20:735][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.12.16-20.45.20:736][542]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2024.12.16-20.45.20:744][542]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.20:744][542]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.20:747][542]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Bank.Bank as actor: StaticMeshActor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1457772098
+[2024.12.16-20.45.23:439][759]Cmd: DELETE
+[2024.12.16-20.45.23:440][759]Cmd: ACTOR DELETE
+[2024.12.16-20.45.23:442][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.16-20.45.23:472][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.12.16-20.45.23:474][759]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2024.12.16-20.45.27:212][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.12.16-20.45.28:113][ 65]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.16-20.45.28:148][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.12.16-20.45.28:174][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.12.16-20.45.28:198][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.16-20.45.49:689][551]LogStreaming: Display: FlushAsyncLoading(868): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.45.49:748][551]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/BlenderSachen/Bank.fbx]
+[2024.12.16-20.45.50:878][551]LogSlate: Window 'Import Content' being destroyed
+[2024.12.16-20.45.50:916][551]LogInterchangeEngine: [Pending] Importing
+[2024.12.16-20.45.50:959][552]LogStreaming: Display: FlushAsyncLoading(869): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.45.50:989][553]LogStreaming: Display: FlushAsyncLoading(870): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.45.51:026][555]LogStaticMesh: Display: Building static mesh Bank (Required Memory Estimate: 0.782928 MB)...
+[2024.12.16-20.45.51:029][555]LogStaticMesh: Adjacency [0.00s], tris: 502, UVs 1
+[2024.12.16-20.45.51:029][555]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.12.16-20.45.51:029][555]LogStaticMesh: Leaves [0.00s]
+[2024.12.16-20.45.51:053][555]LogStaticMesh: Reduce [0.02s]
+[2024.12.16-20.45.51:057][556]LogStaticMesh: Fallback [0.01s], num tris: 445
+[2024.12.16-20.45.51:059][556]LogStaticMesh: ConstrainClusters:
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Input: 7 Clusters, 879 Triangles and 632 Vertices
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Output without splits: 7 Clusters, 879 Triangles and 642 Vertices
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Output with splits: 7 Clusters, 879 Triangles and 642 Vertices
+[2024.12.16-20.45.51:059][556]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.16-20.45.51:059][556]LogStaticMesh: WritePages:
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Root: GPU size: 9212 bytes. 1 Pages. 9212.000 bytes per page (28.113% utilization).
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Streaming: 0 bytes.
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Page data disk size: 8000 bytes. Fixup data size: 56 bytes.
+[2024.12.16-20.45.51:059][556]LogStaticMesh:   Total GPU size: 9212 bytes, Total disk size: 8056 bytes.
+[2024.12.16-20.45.51:059][556]LogStaticMesh: Encode [0.00s]
+[2024.12.16-20.45.51:059][556]LogStaticMesh: Nanite build [0.03s]
+
+[2024.12.16-20.45.51:061][556]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Bank.Bank
+[2024.12.16-20.45.51:064][556]LogStaticMesh: Warning: Bank has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.12.16-20.45.51:064][556]LogStaticMesh: Warning: Bank has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.12.16-20.45.52:171][557]LogMeshUtilities: Finished distance field build in 1.0s - 126x56x91 sparse distance field, 0.8Mb total, 0.0Mb always loaded, 69% occupied, 167 triangles, Bank
+[2024.12.16-20.45.52:374][558]LogInterchangeEngine: Display: Interchange import completed [C:/Users/krist/OneDr...eepman/BlenderSachen/Bank.fbx]
+[2024.12.16-20.45.52:376][558]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2024.12.16-20.45.52:376][558]LogInterchangeEngine: [Success] Import Done
+[2024.12.16-20.45.53:534][624]LogMeshUtilities: Finished distance field build in 1.3s - 126x56x91 sparse distance field, 0.8Mb total, 0.0Mb always loaded, 69% occupied, 167 triangles, Bank
+[2024.12.16-20.45.54:055][659]LogMaterial: Display: Material /Game/Assets/Material_001.Material_001 needed to have new flag set bUsedWithNanite !
+[2024.12.16-20.45.57:008][840]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.57:008][840]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.57:008][840]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Bank.Bank as actor: StaticMeshActor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_2
+[2024.12.16-20.45.57:825][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.12.16-20.45.57:827][906]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2024.12.16-20.45.57:833][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.57:834][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.45.57:836][906]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Bank.Bank as actor: StaticMeshActor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1494862099
+[2024.12.16-20.46.12:850][245]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1494862099.StaticMeshComponent0.
+[2024.12.16-20.46.13:315][288]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1494862099.StaticMeshComponent0.
+[2024.12.16-20.46.14:522][405]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1494862099.StaticMeshComponent0.
+[2024.12.16-20.46.26:056][282]LogShaderCompilers: Display: ================================================
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Total job queries 405, among them cache hits 178 (43.95%), DDC hits 208 (51.36%), Duplicates 4 (0.99%)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Tracking 223 distinct input hashes that result in 199 distinct outputs (89.24%)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: RAM used: 142,96 KiB of 3,20 GiB budget. Usage: 0.00%
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Shaders Compiled: 15
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100%)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Average time worker was idle: 0.75 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Job execution time: average 3.53 s, max 4.79 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Job life time (pending + execution): average 3.58 s, max 4.87
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Shader code size: average 10,842 KiB, min 4,215 KiB, max 18,93 KiB
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.02 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.06%
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.50 jobs/batch
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Average processing rate: 1.66 jobs/sec
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Total thread time: 21,414 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Total thread preprocess time: 7,508 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Percentage time preprocessing: 35.06%
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Effective parallelization: 2.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.84 sec, max 2.84 sec, min 2.84 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.49 sec, max 2.49 sec, min 2.49 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 2.22 sec, max 2.22 sec, min 2.22 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.79 sec, max 1.79 sec, min 1.79 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 1.78 sec, max 2.13 sec, min 1.44 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 16.66% of total time (compiled    2 times, average 1.78 sec, max 2.13 sec, min 1.44 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 16.60% of total time (compiled    2 times, average 1.78 sec, max 2.14 sec, min 1.41 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 13.25% of total time (compiled    1 times, average 2.84 sec, max 2.84 sec, min 2.84 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 11.64% of total time (compiled    1 times, average 2.49 sec, max 2.49 sec, min 2.49 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display:                                                 FLumenCardCS - 10.36% of total time (compiled    1 times, average 2.22 sec, max 2.22 sec, min 2.22 sec)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: === Material stats ===
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Materials Translated:    146
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Material Translation Only: 0.04 s (40%)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: Material Cache Hits: 15 (10%)
+[2024.12.16-20.46.26:057][282]LogShaderCompilers: Display: ================================================
+[2024.12.16-20.46.27:364][399]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-20.46.27:374][399]LogContentBundle: [TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.16-20.46.27:374][399]LogWorldPartition: Display: GenerateStreaming for 'TestMap' started...
+[2024.12.16-20.46.27:376][399]LogWorldPartition: Display: GenerateStreaming for 'TestMap' took 2.105 ms (total: 10.443 ms)
+[2024.12.16-20.46.27:376][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-20.46.27:377][399]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2024.12.16-20.46.27:378][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001593s)
+[2024.12.16-20.46.27:378][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.001636s)
+[2024.12.16-20.46.27:398][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.12.16-20.46.27:399][399]LogChaosDD: Creating Chaos Debug Draw Scene for world TestMap
+[2024.12.16-20.46.27:401][399]LogWorldPartition: ULevel::OnLevelLoaded(TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.16-20.46.27:402][399]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.16-20.46.27:402][399]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_TestMap.TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.16-20.46.27:402][399]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.16-20.46.27:402][399]LogWorldPartition: Display: WorldPartition initialize took 668 us (total: 427.768 ms)
+[2024.12.16-20.46.27:402][399]LogPlayLevel: PIE: World Init took: (0.002352s)
+[2024.12.16-20.46.27:403][399]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-20.46.27:403][399]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.16-20.46.27:403][399]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-20.46.27:403][399]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-20.46.27:403][399]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-20.46.27:403][399]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-20.46.27:405][399]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-20.46.27:434][399]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (5- Astro A50 Game)
+[2024.12.16-20.46.27:434][399]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-20.46.27:434][399]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-20.46.27:434][399]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-20.46.27:435][399]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.12.16-20.46.27:435][399]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.12.16-20.46.27:438][399]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.12.16-20.46.27:438][399]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.12.16-20.46.27:438][399]LogInit: FAudioDevice initialized with ID 6.
+[2024.12.16-20.46.27:438][399]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMap'.
+[2024.12.16-20.46.27:438][399]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.12.16-20.46.27:442][399]LogLoad: Game class is 'MyGameMode_C'
+[2024.12.16-20.46.27:442][399]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2024.12.16-21.46.27
+[2024.12.16-20.46.27:442][399]LogWorld: Bringing up level for play took: 0.000445
+[2024.12.16-20.46.27:444][399]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.12.16-20.46.27:446][399]LogStreaming: Display: FlushAsyncLoading(871,872): 2 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.46.27:451][399]PIE: Server logged in
+[2024.12.16-20.46.27:452][399]PIE: Play in editor total start time 0,078 seconds.
+[2024.12.16-20.46.38:934][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.46.38:934][640]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2024.12.16-20.46.38:935][640]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.46.38:935][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.46.38:935][640]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_TestMap.TestMap
+[2024.12.16-20.46.38:939][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-20.46.38:945][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.46.38:967][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.46.38:967][640]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.12.16-20.46.38:967][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.16-20.46.38:969][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.16-20.46.38:977][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.12.16-20.46.39:065][641]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.12.16-20.47.15:867][597]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-20.47.15:879][597]LogContentBundle: [TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.16-20.47.15:879][597]LogWorldPartition: Display: GenerateStreaming for 'TestMap' started...
+[2024.12.16-20.47.15:881][597]LogWorldPartition: Display: GenerateStreaming for 'TestMap' took 2.328 ms (total: 12.772 ms)
+[2024.12.16-20.47.15:881][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-20.47.15:882][597]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2024.12.16-20.47.15:883][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001687s)
+[2024.12.16-20.47.15:883][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.001733s)
+[2024.12.16-20.47.15:906][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.12.16-20.47.15:907][597]LogChaosDD: Creating Chaos Debug Draw Scene for world TestMap
+[2024.12.16-20.47.15:909][597]LogWorldPartition: ULevel::OnLevelLoaded(TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.16-20.47.15:909][597]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.16-20.47.15:909][597]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_TestMap.TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.16-20.47.15:909][597]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.16-20.47.15:910][597]LogWorldPartition: Display: WorldPartition initialize took 723 us (total: 428.492 ms)
+[2024.12.16-20.47.15:910][597]LogPlayLevel: PIE: World Init took: (0.002364s)
+[2024.12.16-20.47.15:911][597]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-20.47.15:911][597]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.16-20.47.15:911][597]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-20.47.15:911][597]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-20.47.15:911][597]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-20.47.15:911][597]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-20.47.15:913][597]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-20.47.15:948][597]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (5- Astro A50 Game)
+[2024.12.16-20.47.15:948][597]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-20.47.15:948][597]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-20.47.15:948][597]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-20.47.15:949][597]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.12.16-20.47.15:949][597]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.12.16-20.47.15:952][597]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.12.16-20.47.15:952][597]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.12.16-20.47.15:952][597]LogInit: FAudioDevice initialized with ID 7.
+[2024.12.16-20.47.15:952][597]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestMap'.
+[2024.12.16-20.47.15:952][597]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.12.16-20.47.15:955][597]LogLoad: Game class is 'MyGameMode_C'
+[2024.12.16-20.47.15:955][597]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2024.12.16-21.47.15
+[2024.12.16-20.47.15:956][597]LogWorld: Bringing up level for play took: 0.000553
+[2024.12.16-20.47.15:958][597]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.12.16-20.47.15:961][597]LogStreaming: Display: FlushAsyncLoading(873,874): 2 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.47.15:966][597]PIE: Server logged in
+[2024.12.16-20.47.15:967][597]PIE: Play in editor total start time 0,089 seconds.
+[2024.12.16-20.47.28:137][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.47.28:137][879]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2024.12.16-20.47.28:138][879]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.47.28:138][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.47.28:138][879]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_TestMap.TestMap
+[2024.12.16-20.47.28:141][879]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-20.47.28:147][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.47.28:169][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.47.28:169][879]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.12.16-20.47.28:169][879]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.12.16-20.47.28:171][879]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.12.16-20.47.28:179][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.12.16-20.47.28:270][880]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.12.16-20.47.48:600][511]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-20.47.48:612][511]LogContentBundle: [TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.16-20.47.48:612][511]LogWorldPartition: Display: GenerateStreaming for 'TestMap' started...
+[2024.12.16-20.47.48:614][511]LogWorldPartition: Display: GenerateStreaming for 'TestMap' took 2.277 ms (total: 15.050 ms)
+[2024.12.16-20.47.48:625][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-20.47.48:660][511]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2024.12.16-20.47.48:662][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001790s)
+[2024.12.16-20.47.48:662][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.001839s)
+[2024.12.16-20.47.48:685][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.12.16-20.47.48:688][511]LogChaosDD: Creating Chaos Debug Draw Scene for world TestMap
+[2024.12.16-20.47.48:689][511]LogWorldPartition: ULevel::OnLevelLoaded(TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.16-20.47.48:689][511]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.16-20.47.48:689][511]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_TestMap.TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.16-20.47.48:689][511]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.16-20.47.48:690][511]LogWorldPartition: Display: WorldPartition initialize took 692 us (total: 429.184 ms)
+[2024.12.16-20.47.48:690][511]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2024.12.16-20.47.48:691][511]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-20.47.48:691][511]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.16-20.47.48:691][511]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-20.47.48:691][511]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-20.47.48:691][511]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-20.47.48:691][511]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-20.47.48:693][511]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-20.47.48:726][511]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (5- Astro A50 Game)
+[2024.12.16-20.47.48:726][511]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-20.47.48:726][511]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-20.47.48:726][511]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-20.47.48:727][511]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.12.16-20.47.48:727][511]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.12.16-20.47.48:731][511]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.12.16-20.47.48:731][511]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.12.16-20.47.48:731][511]LogInit: FAudioDevice initialized with ID 8.
+[2024.12.16-20.47.48:731][511]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestMap'.
+[2024.12.16-20.47.48:731][511]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.12.16-20.47.48:734][511]LogLoad: Game class is 'MyGameMode_C'
+[2024.12.16-20.47.48:734][511]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2024.12.16-21.47.48
+[2024.12.16-20.47.48:735][511]LogWorld: Bringing up level for play took: 0.000524
+[2024.12.16-20.47.48:737][511]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.12.16-20.47.48:743][511]PIE: Server logged in
+[2024.12.16-20.47.48:744][511]PIE: Play in editor total start time 0,132 seconds.
+[2024.12.16-20.48.06:272][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.48.06:272][369]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2024.12.16-20.48.06:272][369]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.48.06:272][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.48.06:272][369]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_TestMap.TestMap
+[2024.12.16-20.48.06:276][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-20.48.06:281][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.48.06:303][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.48.06:303][369]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.12.16-20.48.06:303][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.12.16-20.48.06:305][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.12.16-20.48.06:312][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.12.16-20.48.06:452][370]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.12.16-20.48.46:149][680]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Bank.Bank
+[2024.12.16-20.48.46:165][680]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2024.12.16-20.49.37:714][486]LogStreaming: Display: FlushAsyncLoading(875): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-20.49.37:718][486]LogStaticMesh: Display: Building static mesh Shape_Cube (Required Memory Estimate: 0.083673 MB)...
+[2024.12.16-20.49.37:723][486]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2024.12.16-20.49.40:279][714]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2024.12.16-20.49.40:289][714]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2024.12.16-20.49.43:504][822]LogEditorTransaction: Undo Edit Complex Collision Mesh
+[2024.12.16-20.49.44:995][881]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.49.44:995][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.49.45:124][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.12.16-20.49.56:186][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-20.49.56:249][725]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Bank] ([1] browsable assets)...
+[2024.12.16-20.49.56:261][725]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Bank.Bank]
+[2024.12.16-20.49.56:261][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Bank]
+[2024.12.16-20.49.56:261][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bank" FILE="C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/Assets/Bank.uasset" SILENT=true
+[2024.12.16-20.49.56:267][725]LogSavePackage: Moving output files for package: /Game/Assets/Bank
+[2024.12.16-20.49.56:267][725]LogSavePackage: Moving 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/BankA227C7534DDB2AC77906BD9033D9BDDD.tmp' to 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/Assets/Bank.uasset'
+[2024.12.16-20.49.56:287][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.626 ms (total: 683.932 ms)
+[2024.12.16-20.49.56:345][725]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-20.49.56:345][725]LogContentValidation: Enabled validators:
+[2024.12.16-20.49.56:345][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-20.49.56:345][725]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-20.49.56:345][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-20.49.56:345][725]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-20.49.56:345][725]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-20.49.56:345][725]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-20.49.56:345][725]AssetCheck: /Game/Assets/Bank Validating asset
+[2024.12.16-20.49.58:836][914]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-20.49.58:849][914]LogContentBundle: [TestMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.16-20.49.58:849][914]LogWorldPartition: Display: GenerateStreaming for 'TestMap' started...
+[2024.12.16-20.49.58:852][914]LogWorldPartition: Display: GenerateStreaming for 'TestMap' took 2.446 ms (total: 17.496 ms)
+[2024.12.16-20.49.58:852][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-20.49.58:891][914]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2024.12.16-20.49.58:894][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2024.12.16-20.49.58:894][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.001779s)
+[2024.12.16-20.49.58:915][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.12.16-20.49.58:919][914]LogChaosDD: Creating Chaos Debug Draw Scene for world TestMap
+[2024.12.16-20.49.58:921][914]LogWorldPartition: ULevel::OnLevelLoaded(TestMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.16-20.49.58:921][914]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.16-20.49.58:921][914]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_TestMap.TestMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.16-20.49.58:921][914]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.16-20.49.58:921][914]LogWorldPartition: Display: WorldPartition initialize took 632 us (total: 429.817 ms)
+[2024.12.16-20.49.58:921][914]LogPlayLevel: PIE: World Init took: (0.002390s)
+[2024.12.16-20.49.58:922][914]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-20.49.58:922][914]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.16-20.49.58:922][914]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-20.49.58:922][914]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-20.49.58:922][914]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-20.49.58:922][914]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-20.49.58:925][914]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-20.49.58:954][914]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (5- Astro A50 Game)
+[2024.12.16-20.49.58:955][914]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-20.49.58:955][914]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-20.49.58:955][914]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-20.49.58:955][914]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.12.16-20.49.58:955][914]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.12.16-20.49.58:957][914]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.12.16-20.49.58:958][914]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.12.16-20.49.58:958][914]LogInit: FAudioDevice initialized with ID 9.
+[2024.12.16-20.49.58:958][914]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap'.
+[2024.12.16-20.49.58:958][914]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.12.16-20.49.58:961][914]LogLoad: Game class is 'MyGameMode_C'
+[2024.12.16-20.49.58:962][914]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2024.12.16-21.49.58
+[2024.12.16-20.49.58:963][914]LogWorld: Bringing up level for play took: 0.000450
+[2024.12.16-20.49.58:965][914]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.12.16-20.49.58:971][914]PIE: Server logged in
+[2024.12.16-20.49.58:972][914]PIE: Play in editor total start time 0,122 seconds.
+[2024.12.16-20.50.17:544][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.50.17:544][867]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2024.12.16-20.50.17:545][867]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.50.17:545][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.50.17:545][867]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_TestMap.TestMap
+[2024.12.16-20.50.17:548][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-20.50.17:553][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.50.17:577][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-20.50.17:577][867]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.12.16-20.50.17:577][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.12.16-20.50.17:579][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.12.16-20.50.17:587][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.12.16-20.50.17:682][868]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.12.16-20.50.18:678][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.12.16-20.50.19:651][945]LogSlate: Window 'Save Content' being destroyed
+[2024.12.16-20.50.24:266][237]SourceControl: Revision control is disabled
+[2024.12.16-20.50.25:757][329]LogSlate: Window 'Revision Control Login' being destroyed
+[2024.12.16-20.50.30:652][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.16-20.50.33:305][785]LogSlate: Window 'Save Content' being destroyed
+[2024.12.16-20.50.33:336][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-20.50.33:385][785]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TestMap/B/JP/YO8SY7M69MEIOQ7XQ9EQZE
+[2024.12.16-20.50.33:385][785]LogSavePackage: Moving 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/YO8SY7M69MEIOQ7XQ9EQZE90B2DFEE40D74CBE7BDC498404039C41.tmp' to 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/__ExternalActors__/TestMap/B/JP/YO8SY7M69MEIOQ7XQ9EQZE.uasset'
+[2024.12.16-20.50.33:388][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Material_001] ([1] browsable assets)...
+[2024.12.16-20.50.33:458][785]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Material_001.Material_001]
+[2024.12.16-20.50.33:458][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Material_001]
+[2024.12.16-20.50.33:458][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material_001" FILE="C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/Assets/Material_001.uasset" SILENT=true
+[2024.12.16-20.50.33:462][785]LogSavePackage: Moving output files for package: /Game/Assets/Material_001
+[2024.12.16-20.50.33:462][785]LogSavePackage: Moving 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/Material_001E9109FC149D107F6E95CCC95ACD8555A.tmp' to 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/Assets/Material_001.uasset'
+[2024.12.16-20.50.33:464][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([2] browsable assets)...
+[2024.12.16-20.50.33:464][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2024.12.16-20.50.33:464][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/Blueprints/Player.uasset" SILENT=true
+[2024.12.16-20.50.33:478][785]LogSavePackage: Moving output files for package: /Game/Blueprints/Player
+[2024.12.16-20.50.33:478][785]LogSavePackage: Moving 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/PlayerBF9C8DD645FBDD01748BEFBCC38E9692.tmp' to 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/Blueprints/Player.uasset'
+[2024.12.16-20.50.33:482][785]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TestMap/6/H4/5ERM5EEA9UNDN7W1UBON8I
+[2024.12.16-20.50.33:482][785]LogSavePackage: Moving 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Saved/5ERM5EEA9UNDN7W1UBON8IC96CA5EB4396D84DEBF1D294F1B0EE51.tmp' to 'C:/Users/krist/OneDrive/Dokumente/GitHub/sheepman/Sheepman_Unreal/Content/__ExternalActors__/TestMap/6/H4/5ERM5EEA9UNDN7W1UBON8I.uasset'
+[2024.12.16-20.50.33:495][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.237 ms (total: 843.169 ms)
+[2024.12.16-20.50.33:545][785]LogContentValidation: Display: Starting to validate 4 assets
+[2024.12.16-20.50.33:545][785]LogContentValidation: Enabled validators:
+[2024.12.16-20.50.33:545][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-20.50.33:545][785]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-20.50.33:545][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-20.50.33:545][785]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-20.50.33:545][785]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-20.50.33:545][785]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-20.50.33:545][785]AssetCheck: /Game/Assets/Material_001 Validating asset
+[2024.12.16-20.50.33:545][785]AssetCheck: /Game/Blueprints/Player Validating asset
+[2024.12.16-20.50.33:545][785]AssetCheck: /Game/TestMap Validating asset
+[2024.12.16-20.50.38:813][299]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2066.481934
+[2024.12.16-20.50.38:966][315]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.16-20.50.38:966][315]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2066.626221, Update Interval: 307.342743
+[2024.12.16-20.53.35:528][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-20.53.35:607][392]LogWorldPartition: Actor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1457772098 is unreachable without properly detaching object /Game/__ExternalActors__/TestMap/7/M9/84YKYQ5XEPT02AH4207BIW.PackageMetaData in its package
+[2024.12.16-20.53.35:607][392]LogWorldPartition: Actor /Game/TestMap.TestMap:PersistentLevel.StaticMeshActor_UAID_E848B8C84000853902_1355098097 is unreachable without properly detaching object /Game/__ExternalActors__/TestMap/B/VT/2EJ1ISITPCNBHJZS1GN70L.PackageMetaData in its package
+[2024.12.16-20.53.35:608][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.12.16-20.53.35:635][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.12.16-20.53.35:659][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.12.16-20.53.35:681][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.652 ms (total: 995.822 ms)
+[2024.12.16-20.53.35:710][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.12.16-20.53.36:754][483]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.12.16-20.53.36:841][483]LogStall: Shutdown...
+[2024.12.16-20.53.36:841][483]LogStall: Shutdown complete.
+[2024.12.16-20.53.36:921][483]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.53.36:921][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.53.37:031][483]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.53.37:031][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.53.37:103][483]LogSlate: Window 'Sheepman_Unreal - Unreal Editor' being destroyed
+[2024.12.16-20.53.37:240][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.12.16-20.53.37:256][483]Cmd: QUIT_EDITOR
+[2024.12.16-20.53.37:256][483]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.12.16-20.53.37:269][484]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.12.16-20.53.37:270][484]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.12.16-20.53.37:270][484]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.12.16-20.53.37:271][484]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.53.37:271][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.53.37:271][484]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TestMap.TestMap
+[2024.12.16-20.53.37:292][484]LogStylusInput: Shutting down StylusInput subsystem.
+[2024.12.16-20.53.37:294][484]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.12.16-20.53.37:297][484]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.53.37:297][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.53.37:304][484]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.53.37:304][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.53.37:308][484]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-20.53.37:308][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-20.53.37:314][484]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.12.16-20.53.37:330][484]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.12.16-20.53.37:330][484]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.12.16-20.53.37:330][484]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.12.16-20.53.37:513][484]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.12.16-20.53.37:513][484]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.12.16-20.53.37:513][484]LogAudio: Display: Audio Device unregistered from world 'TestMap'.
+[2024.12.16-20.53.37:513][484]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.12.16-20.53.37:513][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.16-20.53.37:517][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.16-20.53.37:524][484]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.12.16-20.53.37:524][484]LogAudio: Display: Audio Device Manager Shutdown
+[2024.12.16-20.53.37:525][484]LogWindowsTextInputMethodSystem: Activated input method: Deutsch (Deutschland) - (Keyboard).
+[2024.12.16-20.53.37:532][484]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.12.16-20.53.37:532][484]LogExit: Preparing to exit.
+[2024.12.16-20.53.37:577][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.37:580][484]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-20.53.38:521][484]LogEditorDataStorage: Deinitializing
+[2024.12.16-20.53.38:674][484]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.12.16-20.53.38:695][484]LogExit: Editor shut down
+[2024.12.16-20.53.38:699][484]LogExit: Transaction tracking system shut down
+[2024.12.16-20.53.38:816][484]LogExit: Object subsystem successfully closed.
+[2024.12.16-20.53.38:888][484]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.12.16-20.53.39:566][484]LogMemoryProfiler: Shutdown
+[2024.12.16-20.53.39:566][484]LogNetworkingProfiler: Shutdown
+[2024.12.16-20.53.39:566][484]LoadingProfiler: Shutdown
+[2024.12.16-20.53.39:566][484]LogTimingProfiler: Shutdown
+[2024.12.16-20.53.39:922][484]LogChaosDD: Chaos Debug Draw Shutdown
+[2024.12.16-20.53.39:943][484]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.12.16-20.53.39:943][484]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B669464C0-43BD-FA97-AEED-A5BF79802291%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=d8d6171b46525e95006f05be8cbf40a3%7Cd92a157f82864c76b7e48a14959557b8%7Cb122be4f-d1ef-4f2c-b77a-2b02460c4472&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.12.16-20.53.40:487][484]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2024.12.16-20.53.40:487][484]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.12.16-20.53.40:487][484]LogNFORDenoise: NFORDenoise function shutting down
+[2024.12.16-20.53.40:487][484]RenderDocPlugin: plugin has been unloaded.
+[2024.12.16-20.53.40:492][484]LogXGEController: Cleaning working directory: C:/Users/krist/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.12.16-20.53.40:496][484]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2024.12.16-20.53.40:496][484]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2024.12.16-20.53.40:496][484]LogPakFile: Destroying PakPlatformFile
+[2024.12.16-20.53.40:716][484]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.12.16-20.53.40:764][484]LogExit: Exiting.
+[2024.12.16-20.53.40:787][484]Log file closed, 12/16/24 21:53:40
